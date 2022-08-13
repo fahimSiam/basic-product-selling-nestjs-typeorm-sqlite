@@ -5,3 +5,17 @@ Content-Type: application/json
     "email": "abcd@gmail.com",
     "password": "abcd"
 } 
+###
+GET http://localhost:3000/users?email=abcd@gmail.com
+
+###
+DELETE http://localhost:3000/users/1
+
+###
+PATCH http://localhost:3000/users/2
+Content-Type: application/json
+
+{
+    "email": "abcd@gmail.com",
+    "password": "abcd"
+}
