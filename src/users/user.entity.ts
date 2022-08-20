@@ -1,3 +1,4 @@
+import { Exclude } from 'class-transformer';
 import {
   AfterInsert,
   AfterRemove,
@@ -11,8 +12,10 @@ import {
 export class User {
   @PrimaryGeneratedColumn()
   id: number;
+
   @Column()
   email: string;
+
   @Column()
   password: string;
 

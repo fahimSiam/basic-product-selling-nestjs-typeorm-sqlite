@@ -6,7 +6,7 @@ Content-Type: application/json
     "password": "abcd"
 } 
 ###
-GET http://localhost:3000/users?email=abcd@gmail.com
+GET http://localhost:3000/users/2
 
 ###
 DELETE http://localhost:3000/users/1
